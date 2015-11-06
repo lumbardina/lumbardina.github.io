@@ -1,0 +1,54 @@
+<div ng-show="homeController.spinner"
+     style="top: 350px; left: 50%; margin-left: -250px; position: fixed; width: 500px; text-align: center;">
+  <h3>
+    Loading applications...
+    <br>
+    <br>
+    <i class="fa fa-spinner fa-spin fa-4x" style="color:#e74c3c"></i>
+  </h3>
+</div>
+<div class="container">
+  <p> Welcome to apartments Lumbardina official webpage.</p>
+  <hr>
+    <h5>Apartment A2:</h5>
+  
+  <uib-carousel interval="3000" no-wrap="yes">
+    <uib-slide ng-repeat="slide in homeController.slides">
+      <img ng-src="{{slide.image}}" style="margin:auto;">
+      <div class="carousel-caption">
+        <p>{{slide.text}}</p>
+      </div>
+    </uib-slide>
+  </uib-carousel>
+  <hr>
+  
+  <div>
+    <h4> Great Apartment In The Heart Of The Small, Picturesque Fishing Village Lumbarda</h4>
+    <p>
+      Apartments lumbardina a1 and a2 are situated in 2 separate houses, on the same property in the heart of the small, picturesque fishing village lumbarda. Apartment a2 is in the front of the property overlooking the seaside, and apartment a1 is 70 meters behind it on the same piece of land(10 ares). The apartments are ideal for families and friends who want to stay in a central place close to many village attractions, local restaurants (including traditional croatian and pizza restaurants), cafes, shops, bakeries, post office, a local green market, and the marina where you can rent boats, kayaks and snorkeling equipment. You can also rent bicycles or scooters as the apartments are only a 5-15 minute walk away from the most beautiful beaches.
+    </p>
+    <p>
+      Both apartments are equipped with an air conditioner, wireless internet access, a parking spot is also provided.
+    </p>
+    <p>
+      Details for holiday apartment A2, 2 Bedrooms, Sleeps 6, 2 Bathrooms
+      Apartment A2 (4+2) is positioned on the first floor of a house on the
+      seashore. Apartment A2 has 2 bedrooms(one with double bed and
+      closet, other with 2 single beds), 2 bathrooms (one with washing
+      machine), fully equipped kitchen, dining room with dining table
+      for 6 persons, living room with TV and 2 sofa beds for extra
+      people. The kitchen, dining room and living room are open plan,
+      and are tastefully decorated, giving a pleasant and relaxed
+      atmosphere. From the spacious living area, the balcony opens up to
+      a large 20m2 terrace with unbelievable views of the sea, an ideal
+      place to rest and enjoy the magic of summer and its nights.
+    </p>
+    <hr>
+    <p> To contact us please fill in this form: </p>
+    <center>
+      <iframe src="https://docs.google.com/forms/d/1OWYji9ioDg_itbKRtOwodp82dJnGgLvco6UP1hit7bY/viewform?embedded=true"
+	      width="650" height="1000" frameborder="0" marginheight="0"
+	      marginwidth="0">Loading...</iframe>
+      <center>
+  </div>
+</div>

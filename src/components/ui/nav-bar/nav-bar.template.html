@@ -1,0 +1,56 @@
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-home-page"
+     role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed"
+	    data-toggle="collapse" data-target="#action-bar"
+	    aria-expanded="false">
+    </button>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <a class="navbar-brand" style="padding-right: 25px; height: 68px;
+				   cursor:pointer;" ng-click="navBar.page.go('/')"></a>
+  </div>
+  <div class="collapse navbar-collapse navbar-left"
+       id="action-bar">
+    <ul class="nav navbar-nav">
+      <li> <a class="navbar_link"
+	      ng-click="navBar.page.go('/')">
+	  Apartments:
+	</a>
+      <li> <a class="navbar_link" 
+	      ng-click="navBar.page.go('/A2')"
+	      analytics-on="click" 
+	      analytics-event="Click on appartment A2">
+	  A2
+	</a>
+      </li>
+      <li> <a class="navbar_link"
+	      ng-click="navBar.page.go('/A1')"
+	      analytics-on="click" 
+	      analytics-event="Click on appartment A1">
+	  A1
+	</a>
+      </li>
+      <li class="hidden-lg">
+	<a class="navbar_link"
+	   ng-click="navBar.page.go('/contact')"
+	   analytics-on="click" 
+	   analytics-event="Click on contact us">
+	  <i class="fa fa-tty"></i>
+	  Contact Us
+	</a>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar-text navbar-right visible-lg"
+       style="margin-right: 10px;">
+    <a class="navbar_link"
+       ng-click="navBar.page.go('/contact')"
+       analytics-on="click" 
+       analytics-event="Click on contact us">
+      <i class="fa fa-tty"></i>
+      Contact Us
+    </a>
+  </div>
+
+</nav>

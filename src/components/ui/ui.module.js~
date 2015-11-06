@@ -1,0 +1,26 @@
+'use strict';
+/* jshint esnext: true */
+
+import navBarDirective from './nav-bar/nav-bar.directive';
+
+import successModalService from './success-modal/success-modal.service';
+import errorModalService from './error-modal/error-modal.service';
+import pdfViewDirective from './pdf-view/pdf-view.directive';
+import selectionListDirective from './selection-list/selection-list.directive';
+import injectDirective from './inject/inject.directive';
+import commonModule from '../common/common.module';
+
+var uiModule =  angular.module('maxeler.ui', ['ngSanitize',
+					      'ngGrid', 
+					      'ui.bootstrap',
+					      commonModule.name])
+	.service('successModalService', successModalService)
+	.service('errorModalService', errorModalService)
+	.directive('navBar', navBarDirective)
+	.directive('pdfView', pdfViewDirective)
+	.directive('selectionList', selectionListDirective)
+        // directive which injects the template scope into the transclusion function.
+        // used to enable transclude of element in selection-list
+	.directive('inject', injectDirective);
+
+export default uiModule;
