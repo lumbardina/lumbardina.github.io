@@ -1,0 +1,45 @@
+<nav-bar>
+</nav-bar>
+<div class="container">
+  <center>
+    <h5>Apartment A1</h5>
+  </center>
+
+  <p> &nbsp; &nbsp; Our relaxing Lumbardina A1 apartment is situated
+    in TOP location, in the heart of the small, picturesque fishing
+    village Lumbarda.The apartment is in the center,the seafront only
+    30m from the sea, new, fully equipped, spacious with provided
+    parking space.
+    Apartment Lumbardina A1 is in the center of <b> Lumbarda</b>, only 50m from the sea separated from it with owner's yard, in traditional dalmatian stone house.
+  </p>
+  <p>&nbsp; &nbsp;
+    Apartment A1 (7) is on the same piece of land, behind Apartment A2 in a traditional dalmatian house. Owner lives on the ground floor, apartment is on the top floor and has a separate entrance and big terrace (20 square meters). There are 3 rooms, each with a double bed. One room has an additional single bed, and in there is an additional fridge. Apartment has 2 bathrooms with bathtub (one has a washing machine in it), kitchen and dining table in it.
+    If you wish to stay in a central location where everything is at hand, whilst enjoying total privacy, then this apartment is ideal for you with its private terrace and a beautiful Mediterranean garden with its lemon, orange, fig, pomegranate, kiwi and olive trees. Guests are also welcome to use the barbecue. For full enjoyment the apartment has a balcony with a splendid sea view, ideal to relax with a morning coffee or an evening glass of wine.
+  </p>
+  
+  <h5>Apartment A1:</h5>
+
+  <uib-carousel interval="5000" no-wrap="A1Controller.noWrapSlides">
+    <uib-slide ng-repeat="slide in A1Controller.slides"
+	       style="">
+      <center>
+ 	<div ng-style="{'background': 'url(\'' + slide.image + '\')',
+		       'height':'528px','background-size': 'contain','background-position':'center', 'background-repeat': 'no-repeat'}"></div>
+      </center>
+      <div class="carousel-caption">
+	<p>{{slide.text}}</p>
+      </div>
+    </uib-slide>
+  </uib-carousel>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" ng-model="A1Controller.noWrapSlides"/>
+      Disable Slide Looping
+    </label>
+  </div>
+  <hr>
+  <p> &nbsp; &nbsp;
+    Apartment is equipped with air conditioner, wireless internet access, fully equipped kitchen, washing machine, dining room and TV. A parking spot is also provided.
+  </p>
+</div>

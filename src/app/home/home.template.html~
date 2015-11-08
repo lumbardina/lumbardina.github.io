@@ -1,0 +1,86 @@
+<nav-bar>
+</nav-bar>
+
+<div class="container">
+  <br>
+  <p> &nbsp; &nbsp;Welcome to apartments Lumbardina official webpage. Our apartments
+    <b ng-click="homeController.page.go('/A1')"
+       class="underline-on-hover"
+       style="cursor:pointer;"> Lumbardina A1</b>
+    and <b ng-click="homeController.page.go('/A2')"
+	   class="underline-on-hover"
+	   style="cursor:pointer;">Lumbardina A2 </b> are
+    situated in TOP location,in the heart of the small, picturesque
+    fishing village <b>Lumbarda</b> on island <b>Korcula</b>
+    in <b>Dubrovacko-Neretvanska Zupanija</b>
+    in <b>Croatia</b>.
+
+  </p>
+  <p>To see more details about our apartments click on following images:</p>
+  <masonry masonry-options="{ isFitWidth: true, gutter: 36, transitionDuration: '0.8s'}"
+	   reload-on-show
+	   preserve-order
+	   style="margin: 20px auto 20px auto; display: block; cursor:pointer;"
+	   item-selector=".lumbardina-masonry-brick"
+	   column-width="150">
+    <div masonry-brick
+	 class="lumbardina-masonry-brick"
+	 ng-click="homeController.page.go(apartment.link)"
+	 ng-repeat="apartment in homeController.apartments">
+      <center>
+	<uib-rating  data-readonly="true"
+		     ng-model="homeController.numberOfStars"
+		     max="3">
+	</uib-rating>
+      </center>
+      <div>
+	<div ng-style="{'background': 'url(\'' + apartment.image + '\')',
+		       'height':'150px','width':'150px', 'background-size':
+		       'cover','background-position':'center',
+		       'background-repeat': 'no-repeat'}">
+	</div>
+	{{apartment.text}}
+      </div>
+    </div>
+  </masonry>
+
+  <p>
+    &nbsp; &nbsp;Both apartments are equipped with an air conditioner, wireless
+    internet access, a parking spot is also provided.
+  </p>
+  <p>
+    &nbsp; &nbsp; Apartments lumbardina A1 and A2 are situated in 2 separate houses, on the same property in the heart of the small, picturesque fishing village lumbarda. Apartment a2 is in the front of the property overlooking the seaside, and apartment a1 is 70 meters behind it on the same piece of land(10 ares). The apartments are ideal for families and friends who want to stay in a central place close to many village attractions, local restaurants (including traditional croatian and pizza restaurants), cafes, shops, bakeries, post office, a local green market, and the marina where you can rent boats, kayaks and snorkeling equipment. You can also rent bicycles or scooters as the apartments are only a 5-15 minute walk away from the most beautiful beaches.
+  </p>
+  <h5>Lumbarda and enviroment</h5>
+  <uib-carousel interval="5000" no-wrap="homeController.noWrapSlides">
+    <uib-slide ng-repeat="slide in homeController.slides"
+	       style="max-height:532px;">
+      <center>
+ 	<div ng-style="{'background': 'url(\'' + slide.image + '\')',
+		       'height':'528px','background-size': 'contain','background-position':'center', 'background-repeat': 'no-repeat'}"></div>
+      </center>
+      <div class="carousel-caption">
+	<p>{{slide.text}}</p>
+      </div>
+    </uib-slide>
+  </uib-carousel>
+  
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" ng-model="homeController.noWrapSlides"/>
+      Disable Picture Looping
+    </label>
+  </div>
+
+  <ui-gmap-google-map center="homeController.map.center"
+		      draggable="true"
+                      zoom="homeController.map.zoom"
+		      options="homeController.map.options"
+		      bounds="homeController.map.bounds">
+    <ui-gmap-marker coords="homeController.marker.coords"
+		    options="homeController.marker.options"
+		    idkey="homeController.marker.id">
+    </ui-gmap-marker>
+
+  </ui-gmap-google-map>
+</div>h

@@ -1,0 +1,18 @@
+'use strict';
+/*jshint esnext: true */
+
+class NavBarController {
+    constructor(user, page) {
+	'ngInject';
+
+	this.user = user;
+	this.page = page;	
+    }
+
+    logout() {
+	this.user.logout();
+	this.page.go('/login');
+    }
+}
+
+export default NavBarController;

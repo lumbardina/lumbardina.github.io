@@ -1,0 +1,55 @@
+<nav-bar>
+</nav-bar>
+<div class="container">
+  <center>
+    <h5>Lumbardina A2</h5>
+  </center>
+  <p> &nbsp; &nbsp; Our relaxing Lumbardina A2 apartment is situated in TOP location, in the heart of the small, picturesque fishing village Lumbarda.The apartment is in the center,the seafront only 30m from the sea, new, fully equipped, spacious with provided parking space
+  </p>
+
+  <center>
+    <h4> Great Apartment In The Heart Of The Small, Picturesque Fishing Village Lumbarda</h4>
+  </center>
+
+  <p>&nbsp; &nbsp;
+    The apartment is ideal for families and friends who want to stay in a central place close to many rural attractions, local restaurants (all styles such as traditional Croatian and Pizza), cafes, shops, bakeries, post office, local produce market, and the marina where you can rent boats, kayaks and snorkeling equipment. You can also rent bicycles or scooters and you are only a on 5-15 minute walk away from beautiful beaches.
+  </p>
+  <p>&nbsp; &nbsp;
+    The apartment is an ideal location to use as a base for all kind of activities like walking, cycling, fishing, diving, and sailing. Their location is also suitable for seniors, especially before and after peak holiday season when the sky and the sea are in perfect harmony and you have the beaches to yourself, walking, socializing and enjoying on the terrace, while all service activities are at hand.
+  </p>
+  <p>&nbsp; &nbsp;
+    Apartment A2 (4+2) is positioned on the first floor of a house on
+    the seashore. Apartment has 2 bedrooms, 2 bathrooms (one with
+    washing machine), fully equipped kitchen, dining room with dining
+    table for 6 persons, living room with TV and 2 sofa beds for extra
+    people. The kitchen, dining room and living room are open plan,
+    and are tastefully decorated, giving a pleasant and relaxed
+    atmosphere. From the spacious living area, the balcony opens up to
+    a large 20m2 terrace with unbelievable views of the sea, an ideal
+    place to rest and enjoy the magic of summer and its nights.
+  </p>
+  <i class="fa fa-television"></i>
+  <hr>
+  <p>&nbsp; &nbsp; Apartment A2 has astonishing terrace with view on the sea where our guests can fully enjoy meals or morning coffee.</p>
+  <uib-carousel interval="5000" no-wrap="A2Controller.noWrapSlides">
+    <uib-slide ng-repeat="slide in A2Controller.slides">
+      <center>
+ 	<div ng-style="{'background': 'url(\'' + slide.image + '\')',
+		       'height':'528px','background-size': 'contain','background-position':'center', 'background-repeat': 'no-repeat'}"></div>
+      </center>
+      <div class="carousel-caption">
+	<p>{{slide.text}}</p>
+      </div>
+    </uib-slide>
+  </uib-carousel>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" ng-model="A2Controller.noWrapSlides"/>
+      Disable Picture Looping
+    </label>
+  </div>
+
+  <hr>
+
+</div>
