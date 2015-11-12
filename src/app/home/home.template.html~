@@ -17,7 +17,7 @@
 
   </p>
   <p>To see more details about our apartments click on following images:</p>
-  <masonry masonry-options="{ isFitWidth: true, gutter: 36, transitionDuration: '0.8s'}"
+  <masonry masonry-options="{ isFitWidth: true, gutter: 36, transitionDuration: '1.2s'}"
 	   reload-on-show
 	   preserve-order
 	   style="margin: 20px auto 20px auto; display: block; cursor:pointer;"
@@ -83,4 +83,4 @@
     </ui-gmap-marker>
 
   </ui-gmap-google-map>
-</div>h
+</div>

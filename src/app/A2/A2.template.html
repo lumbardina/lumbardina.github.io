@@ -4,11 +4,12 @@
   <center>
     <h5>Lumbardina A2</h5>
   </center>
+  <hr>
   <p> &nbsp; &nbsp; Our relaxing Lumbardina A2 apartment is situated in TOP location, in the heart of the small, picturesque fishing village Lumbarda.The apartment is in the center,the seafront only 30m from the sea, new, fully equipped, spacious with provided parking space
   </p>
 
   <center>
-    <h4> Great Apartment In The Heart Of The Small, Picturesque Fishing Village Lumbarda</h4>
+    <h5> Great Apartment In The Heart Of The Small, Picturesque Fishing Village Lumbarda</h5>
   </center>
 
   <p>&nbsp; &nbsp;
@@ -34,7 +35,10 @@
     <uib-slide ng-repeat="slide in A2Controller.slides">
       <center>
  	<div ng-style="{'background': 'url(\'' + slide.image + '\')',
-		       'height':'528px','background-size': 'contain','background-position':'center', 'background-repeat': 'no-repeat'}"></div>
+		       'height':'528px','background-size':
+		       'contain','background-position':'center',
+		       'background-repeat': 'no-repeat'}"
+	     title="{{slide.text}}"></div>
       </center>
       <div class="carousel-caption">
 	<p>{{slide.text}}</p>

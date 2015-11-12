@@ -28,7 +28,6 @@
     a large 20m2 terrace with unbelievable views of the sea, an ideal
     place to rest and enjoy the magic of summer and its nights.
   </p>
-  <i class="fa fa-television"></i>
   <hr>
   <p>&nbsp; &nbsp; Apartment A2 has astonishing terrace with view on the sea where our guests can fully enjoy meals or morning coffee.</p>
   <uib-carousel interval="5000" no-wrap="A2Controller.noWrapSlides">

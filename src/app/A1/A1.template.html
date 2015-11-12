@@ -4,7 +4,8 @@
   <center>
     <h5>Lumbardina A1</h5>
   </center>
-
+  <hr>
+  
   <p> &nbsp; &nbsp; Our relaxing Lumbardina A1 apartment is situated
     in TOP location, in the heart of the small, picturesque fishing
     village Lumbarda.The apartment is in the center,the seafront only
@@ -25,6 +26,10 @@
     If you wish to stay in a central location where everything is at hand, whilst enjoying total privacy, then this apartment is ideal for you with its private terrace and a beautiful Mediterranean garden with its lemon, orange, fig, pomegranate, kiwi and olive trees. Guests are also welcome to use the barbecue. For full enjoyment the apartment has a balcony with a splendid sea view, ideal to relax with a morning coffee or an evening glass of wine.
   </p>
   
+  <p>&nbsp; &nbsp; *Apartment A1 is rented in high season (July and
+    August) as whole, and in other months it is divided into 2 units:
+    Apartment A3 for 4 persons and Room for 2-3 persons.
+  </p>
   <h5>Apartment A1:</h5>
 
   <uib-carousel interval="5000" no-wrap="A1Controller.noWrapSlides">
@@ -32,7 +37,10 @@
 	       style="">
       <center>
  	<div ng-style="{'background': 'url(\'' + slide.image + '\')',
-		       'height':'528px','background-size': 'contain','background-position':'center', 'background-repeat': 'no-repeat'}"></div>
+		       'height':'528px','background-size':
+		       'contain','background-position':'center',
+		       'background-repeat': 'no-repeat'}"
+	     title="{{slide.text}}"></div>
       </center>
       <div class="carousel-caption">
 	<p>{{slide.text}}</p>
