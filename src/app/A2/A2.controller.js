@@ -19,27 +19,27 @@ class A2Controller {
 	    },
 	    {
 		image: '/assets/images/A2/103.jpg',
-		text: 'Terrace'
+		text: 'April'
 	    },
 	    {
 		image: '/assets/images/A2/104.jpg',
-		text: 'Terrace'
+		text: 'April'
 	    },
 	    {
 		image: '/assets/images/A2/105.jpg',
-		text: 'Terrace'
+		text: 'May'
 	    },
 	    {
 		image: '/assets/images/A2/106.jpg',
-		text: 'Terrace'
+		text: ''
 	    },
 	    {
 		image: '/assets/images/A2/107.jpg',
-		text: 'Terrace'
+		text: ''
 	    },
 	    {
 		image: '/assets/images/A2/108.jpg',
-		text: 'Terrace'
+		text: 'November'
 	    },
 	    {
 		image: '/assets/images/A2/109.jpg',
@@ -63,7 +63,7 @@ class A2Controller {
 	    },
 	    {
 		image: '/assets/images/A2/114.jpg',
-		text: 'Dining area'
+		text: 'Entrance, Room 1, Kitchen and Dinig area'
 	    },
 	    {
 		image: '/assets/images/A2/115.jpg',
@@ -75,11 +75,11 @@ class A2Controller {
 	    },
 	    {
 		image: '/assets/images/A2/117.jpg',
-		text: 'Dining area'
+		text: 'Dining area and Kitchen'
 	    },
 	    {
 		image: '/assets/images/A2/118.jpg',
-		text: ''
+		text: 'Room 1 and Bathroom2'
 	    },
 	    {
 		image: '/assets/images/A2/119.jpg',
@@ -99,11 +99,11 @@ class A2Controller {
 	    },
 	    {
 		image: '/assets/images/A2/123.jpg',
-		text: ''
+		text: 'Room 1, Bathroom 2, Room 2 and dining room'
 	    },
 	    {
 		image: '/assets/images/A2/124.jpg',
-		text: ''
+		text: 'Bathroom 2 and Room 2'
 	    },
 	    {
 		image: '/assets/images/A2/125.jpg',
@@ -151,15 +151,15 @@ class A2Controller {
 	    },
 	    {
 		image: '/assets/images/A2/136.jpg',
-		text: 'Neighborhood'
+		text: 'Neighborhood April'
 	    },
 	    {
 		image: '/assets/images/A2/137.jpg',
-		text: 'Neighborhood'
+		text: 'Neighborhood Jun'
 	    },
 	    {
 		image: '/assets/images/A2/138.jpg',
-		text: 'Neighborhood'
+		text: 'Neighborhood Jul'
 	    },
 	    {
 		image: '/assets/images/A2/139.jpg',

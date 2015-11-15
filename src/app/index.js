@@ -22,13 +22,15 @@ var LumbardinaModule = angular.module('Lumbardina',
 				       'ngSanitize',
 				       'ngAnimate',
 				       'angulartics',
-				       'angulartics.google.analytics'] )	
-    .config(($routeProvider) => {
+				       'angulartics.google.analytics',
+				       'angulartics.scroll'] )	
+    .config(($routeProvider, $locationProvider) => {
 	'ngInject';
 	$routeProvider
 	    .otherwise({
 		redirectTo: '/'
 	    });
+	$locationProvider.hashPrefix = '!';
     })
     .controller('commonCtrl', function(page) {
 	'ngInject';

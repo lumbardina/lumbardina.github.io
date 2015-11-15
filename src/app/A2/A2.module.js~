@@ -5,7 +5,7 @@ import A2Controller from './A2.controller';
 
 var A2Module = angular.module('lumbardina.A2',
 				['ngRoute'])
-	.controller('homeController', A2Controller)
+	.controller('A2Controller', A2Controller)
 	.config(($routeProvider) => {
 	    'ngInject';
 

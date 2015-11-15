@@ -30,11 +30,11 @@ class A1Controller {
 	    },
 	    {
 		image: '/assets/images/A1/106.jpg',
-		text: 'Stone house'
+		text: 'Stone house, A1 is on first floor and owner on the ground floor'
 	    },
 	    {
 		image: '/assets/images/A1/107.jpg',
-		text: 'Stone house'
+		text: 'Access to stone house, parking, stone house and garden'
 	    },
 	    {
 		image: '/assets/images/A1/108.jpg',
@@ -42,15 +42,15 @@ class A1Controller {
 	    },
 	    {
 		image: '/assets/images/A1/109.jpg',
-		text: 'Path to stone house with parking'
+		text: 'View and road from stone hose on garden, sea and apartment A2'
 	    },
 	    {
 		image: '/assets/images/A1/110.jpg',
-		text: 'Terrace'
+		text: 'Balcony'
 	    },
 	    {
 		image: '/assets/images/A1/111.jpg',
-		text: 'View from terrace'
+		text: 'View from Balcony'
 	    },
 	    {
 		image: '/assets/images/A1/112.jpg',
@@ -58,11 +58,11 @@ class A1Controller {
 	    },
 	    {
 		image: '/assets/images/A1/113.jpg',
-		text: 'Access to apartment with view on the sea'
+		text: 'Separate entrance to apartment A1 with view on the sea'
 	    },
 	    {
 		image: '/assets/images/A1/114.jpg',
-		text: 'Stairway to apartment entrance'
+		text: 'Stairway to separate entrance of apartment A1'
 	    },
 	    {
 		image: '/assets/images/A1/115.jpg',
@@ -70,7 +70,7 @@ class A1Controller {
 	    },
 	    {
 		image: '/assets/images/A1/116.jpg',
-		text: 'Entrance to apartment and terrace'
+		text: 'Separate entrance to apartment and terrace'
 	    },
 	    {
 		image: '/assets/images/A1/117.jpg',
@@ -78,7 +78,7 @@ class A1Controller {
 	    },
 	    {
 		image: '/assets/images/A1/118.jpg',
-		text: 'Terrace and barbecue'
+		text: 'Terrace, garden and barbecue'
 	    },
 	    {
 		image: '/assets/images/A1/119.jpg',
@@ -94,7 +94,7 @@ class A1Controller {
 	    },
 	    {
 		image: '/assets/images/A1/122.jpg',
-		text: 'Hallway'
+		text: 'Hallway and Dining area'
 	    },
 	    {
 		image: '/assets/images/A1/123.jpg',
@@ -130,11 +130,11 @@ class A1Controller {
 	    },
 	    {
 		image: '/assets/images/A1/131.jpg',
-		text: 'View from room 2'
+		text: 'View from Room 2'
 	    },
 	    {
 		image: '/assets/images/A1/132.jpg',
-		text: 'View from room 2'
+		text: 'View from Room 2'
 	    },
 	    {
 		image: '/assets/images/A1/134.jpg',
@@ -146,7 +146,7 @@ class A1Controller {
 	    },
 	    {
 		image: '/assets/images/A1/136.jpg',
-		text: 'Room 2'
+		text: 'Room 2 and Bathroom 1'
 	    },
 	    {
 		image: '/assets/images/A1/137.jpg',
@@ -170,11 +170,11 @@ class A1Controller {
 	    },
 	    {
 		image: '/assets/images/A1/142.jpg',
-		text: 'Room 3'
+		text: 'Room 3 and Bathroom 2'
 	    },
 	    {
 		image: '/assets/images/A1/143.jpg',
-		text: 'Room 3'
+		text: 'Bathroom 2 and separate toilet'
 	    },
 	    {
 		image: '/assets/images/A1/144.jpg',
@@ -186,11 +186,11 @@ class A1Controller {
 	    },
 	    {
 		image: '/assets/images/A1/146.jpg',
-		text: 'Neighborhood'
+		text: 'Neighborhood Jun'
 	    },
 	    {
 		image: '/assets/images/A1/147.jpg',
-		text: 'Neighborhood'
+		text: 'Neighborhood Jul'
 	    },
 	    {
 		image: '/assets/images/A1/148.jpg',

@@ -21,7 +21,7 @@ var LumbardinaModule = angular.module('Lumbardina',
 				       'wu.masonry',
 				       'ngSanitize',
 				       'ngAnimate',
-				       'angulartics', 
+				       'angulartics',
 				       'angulartics.google.analytics'] )	
     .config(($routeProvider) => {
 	'ngInject';

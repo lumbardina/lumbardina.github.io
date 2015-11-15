@@ -1,21 +1,21 @@
 'use strict';
 /* jshint esnext: true */
 
-import HomeController from './home.controller';
+import A1Controller from './A1.controller';
 
-var homeModule = angular.module('maxeler.home',
-				['ngRoute'])
-	.controller('homeController', HomeController)
-	.config(($routeProvider) => {
-	    'ngInject';
+var A1Module = angular.module('lumbardina.A1',
+			      ['ngRoute'])
+    .controller('A1Controller', A1Controller)
+    .config(($routeProvider) => {
+	'ngInject';
 
-	    $routeProvider
-		.when('/', {
-		    templateUrl: 'app/home/home.template.html',
-		    controller: 'homeController',
-		    controllerAs: 'homeController',
-		    bindToController: true
-		});
-	});
+	$routeProvider
+	    .when('/A1', {
+		templateUrl: 'app/A1/A1.template.html',
+		controller: 'A1Controller',
+		controllerAs: 'A1Controller',
+		bindToController: true
+	    });
+    });
 
-export default homeModule;
+export default A1Module;
