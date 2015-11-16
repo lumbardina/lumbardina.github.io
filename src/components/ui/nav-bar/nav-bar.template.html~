@@ -2,7 +2,9 @@
      role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#action-bar">
+    <button type="button" class="navbar-toggle collapsed"
+	    data-toggle="collapse" data-target="#action-bar"
+	    aria-expanded="false">
     </button>
     <!-- Brand and toggle get grouped for better mobile display -->
     <a class="navbar-brand" style="padding-right: 25px; height: 68px;
